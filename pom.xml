@@ -9,4 +9,8 @@
     <version>1.0-SNAPSHOT</version>
 
 
+    <packaging>war</packaging>
+    <build>
+        <finalName>${project.artifactId}</finalName>
+    </build>
 </project>
